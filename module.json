@@ -1,7 +1,7 @@
 {
     "name": "frontiers-of-magic",
     "title": "Frontiers of Magic",
-    "description": "A module containing the exported Frontiers of Magic compendium.",
+    "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
     "version": "0.2",
     "library": "false",
     "manifestPlusVersion": "0.2",
