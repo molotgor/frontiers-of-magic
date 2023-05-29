@@ -1,0 +1,136 @@
+{
+    "name": "frontiers-of-magic",
+    "title": "Frontiers of Magic",
+    "description": "A module containing the exported Frontiers of Magic compendium.",
+    "version": "0.2",
+    "library": "false",
+    "manifestPlusVersion": "0.2",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "molotgor",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "packs": [
+        {
+            "type": "JournalEntry",
+            "label": "Frontiers of Magic - Journals",
+            "module": "frontiers-of-magic",
+            "path": "packs/frontiers-of-magic-journals.db",
+            "name": "frontiers-of-magic-journals",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Chromatic Magic - Spells",
+            "module": "frontiers-of-magic",
+            "path": "packs/chromatic-magic-spells.db",
+            "name": "chromatic-magic-spells",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Chromatic Magic - Effects",
+            "module": "frontiers-of-magic",
+            "path": "packs/chromatic-magic-effects.db",
+            "name": "chromatic-magic-effects",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Chromatic Magic - Actions",
+            "module": "frontiers-of-magic",
+            "path": "packs/chromatic-magic-actions.db",
+            "name": "chromatic-magic-actions",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Chromatic Magic - Class Options",
+            "module": "frontiers-of-magic",
+            "path": "packs/chromatic-magic-class-options.db",
+            "name": "chromatic-magic-class-options",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Chromatic Magic - Chromatic Mage",
+            "module": "frontiers-of-magic",
+            "path": "packs/chromatic-magic-chromatic-mage.db",
+            "name": "chromatic-magic-chromatic-mage",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Ancestry",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-ancestry.db",
+            "name": "familiar-adventures-ancestry",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Familiar Heritage",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-familiar-heritage.db",
+            "name": "familiar-adventures-familiar-heritage",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Familiar Actions",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-familiar-actions.db",
+            "name": "familiar-adventures-familiar-actions",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Deity",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-deity.db",
+            "name": "familiar-adventures-deity",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Divine Intercession",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-divine-intercession.db",
+            "name": "familiar-adventures-divine-intercession",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Familiar Feat/Features",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-familiar-featfeatures.db",
+            "name": "familiar-adventures-familiar-featfeatures",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Familiar Warrior",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-familiar-warrior.db",
+            "name": "familiar-adventures-familiar-warrior",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Familiar Adventures - Effects",
+            "module": "frontiers-of-magic",
+            "path": "packs/familiar-adventures-effects.db",
+            "name": "familiar-adventures-effects",
+            "system": "pf2e"
+        }
+    ],
+    "manifest": "",
+    "download": ""
+}
