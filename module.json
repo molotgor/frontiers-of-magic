@@ -131,6 +131,7 @@
             "system": "pf2e"
         }
     ],
-    "manifest": "",
-    "download": ""
+    "url": "https://github.com/molotgor/frontiers-of-magic",
+    "manifest": "https://raw.githubusercontent.com/molotgor/frontiers-of-magic/master/module.json",
+    "download": "https://github.com/molotgor/frontiers-of-magic/archive/refs/heads/master.zip"
 }
