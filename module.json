@@ -4,7 +4,7 @@
     "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
     "version": "0.2",
     "library": "false",
-    "manifestPlusVersion": "0.2",
+    "manifestPlusVersion": "0.2.1",
     "compatibility": {
         "minimum": 10,
         "verified": 10,
@@ -13,10 +13,19 @@
     "authors": [
         {
             "name": "molotgor",
-            "email": "",
+            "email": "molotgog@gmail.com",
             "url": ""
         }
     ],
+    "flags": {
+        "frontiers-of-magic": {
+          "pf2e-homebrew": {
+            "featTraits": {
+              "familiar": "Familiar"
+            }
+          }
+        }
+      },
     "packs": [
         {
             "type": "JournalEntry",
