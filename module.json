@@ -2,7 +2,7 @@
     "name": "frontiers-of-magic",
     "title": "Frontiers of Magic",
     "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-    "version": "0.2",
+    "version": "0.3",
     "library": "false",
     "manifestPlusVersion": "0.2.1",
     "compatibility": {
@@ -21,7 +21,8 @@
         "frontiers-of-magic": {
           "pf2e-homebrew": {
             "featTraits": {
-              "familiar": "Familiar"
+              "familiar": "Familiar",
+              "imbued": "Imbued"
             }
           }
         }
@@ -137,6 +138,46 @@
             "module": "frontiers-of-magic",
             "path": "packs/familiar-adventures-effects.db",
             "name": "familiar-adventures-effects",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Frontiers of the Arcane - Class Archetypes",
+            "module": "frontiers-of-magic",
+            "path": "packs/frontiers-of-the-arcane-class-archetypes.db",
+            "name": "frontiers-of-the-arcane-class-archetypes",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Frontiers of the Arcane - Effects",
+            "module": "frontiers-of-magic",
+            "path": "packs/frontiers-of-the-arcane-effects.db",
+            "name": "frontiers-of-the-arcane-effects",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Frontiers of the Arcane - Imbued Archetypes",
+            "module": "frontiers-of-magic",
+            "path": "packs/frontiers-of-the-arcane-imbued-archetypes.db",
+            "name": "frontiers-of-the-arcane-imbued-archetypes",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Frontiers of the Arcane - Magus Hybrid Studies",
+            "module": "frontiers-of-magic",
+            "path": "packs/frontiers-of-the-arcane-magus-hybrid-studies.db",
+            "name": "frontiers-of-the-arcane-magus-hybrid-studies",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Frontiers of the Arcane - Spells",
+            "module": "frontiers-of-magic",
+            "path": "packs/frontiers-of-the-arcane-spells.db",
+            "name": "frontiers-of-the-arcane-spells",
             "system": "pf2e"
         }
     ],
