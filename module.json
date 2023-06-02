@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.4",
+  "version": "0.4.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -249,7 +249,7 @@
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Staffs Actions",
+      "label": "New Spell and Items - Staffs",
       "path": "packs/new-spell-and-items-staffs.db",
       "name": "new-spell-and-items-staffs",
       "system": "pf2e",
