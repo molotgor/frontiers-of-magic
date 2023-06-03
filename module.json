@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -198,6 +198,69 @@
       "label": "Frontiers of the Arcane - Spells",
       "path": "packs/frontiers-of-the-arcane-spells.db",
       "name": "frontiers-of-the-arcane-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Actions",
+      "path": "packs/frontiers-of-the-faith-actions.db",
+      "name": "frontiers-of-the-faith-actions",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Community Planter",
+      "path": "packs/frontiers-of-the-faith-community-planter.db",
+      "name": "frontiers-of-the-faith-community-planter",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Domains Expanded",
+      "path": "packs/frontiers-of-the-faith-domains-expanded.db",
+      "name": "frontiers-of-the-faith-domains-expanded",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Effects",
+      "path": "packs/frontiers-of-the-faith-effects.db",
+      "name": "frontiers-of-the-faith-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Heretic",
+      "path": "packs/frontiers-of-the-faith-heretic.db",
+      "name": "frontiers-of-the-faith-heretic",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Imbued Archetypes",
+      "path": "packs/frontiers-of-the-faith-imbued-archetypes.db",
+      "name": "frontiers-of-the-faith-imbued-archetypes",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Faith - Spells",
+      "path": "packs/frontiers-of-the-faith-spells.db",
+      "name": "frontiers-of-the-faith-spells",
       "system": "pf2e",
       "private": false,
       "flags": {}
