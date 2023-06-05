@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -17,15 +17,43 @@
   "flags": {
     "frontiers-of-magic": {
       "pf2e-homebrew": {
-		  "spellsTraits" : {
-			  "consolation": {
-          "label": "Consolation",
-          "description": "A consolation cantrip is a spell you can cast immediately after another spell ends abruptly or produces no effect. Because these spells are situationally relevant and don’t offer the same impact as other cantrips, whenever you would prepare one cantrip for the day or add one cantrip to your spell repertoire, you can prepare or add two consolation cantrips, instead"
-        }
-		  },
+        "spellsTraits": {
+          "consolation": {
+            "label": "Consolation",
+            "description": "A consolation cantrip is a spell you can cast immediately after another spell ends abruptly or produces no effect. Because these spells are situationally relevant and don’t offer the same impact as other cantrips, whenever you would prepare one cantrip for the day or add one cantrip to your spell repertoire, you can prepare or add two consolation cantrips, instead"
+          },
+          "cue": {
+            "label": "Cue",
+            "description": "This is a Cue Manipulation spell"
+          },
+          "stare": {
+            "label": "Stare",
+            "description": "This is a Stare Manipulation spell"
+          },
+          "treatment": {
+            "label": "Treatment",
+            "description": "This is a Treatment Manipulation spell"
+          },
+          "mesmerist": {
+            "label": "Mesmerist",
+            "description": "This indicates abilities from the mesmerist class."
+          },
+          "secret": {
+            "label": "Secret",
+            "description": "The GM rolls the Check for this ability in secret."
+          }
+          
+        },
         "featTraits": {
-          "familiar": "Familiar",
-          "imbued": "Imbued"
+          "familiar": {
+            "label": "Familiar",
+            "description": "A creature with this trait is a member of the familiar ancestry. An ability with this trait can be used or selected only by familiars. An item with this trait is created and used by familiars."
+          },
+          "imbued": "Imbued",
+          "mesmerist": {
+            "label": "Mesmerist",
+            "description": "This indicates abilities from the mesmerist class."
+          }
         }
       }
     }
@@ -132,7 +160,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Familiar Feat/Features",
+      "label": "Familiar Adventures - Familiar Feats/Features",
       "path": "packs/familiar-adventures-familiar-featfeatures.db",
       "name": "familiar-adventures-familiar-featfeatures",
       "system": "pf2e",
@@ -261,6 +289,51 @@
       "label": "Frontiers of the Faith - Spells",
       "path": "packs/frontiers-of-the-faith-spells.db",
       "name": "frontiers-of-the-faith-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Mind - Effects",
+      "path": "packs/frontiers-of-the-mind-effects.db",
+      "name": "frontiers-of-the-mind-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Mind - Feats/Features",
+      "path": "packs/frontiers-of-the-mind-featfeatures.db",
+      "name": "frontiers-of-the-mind-featfeatures",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Mind - Imbued Archetypes",
+      "path": "packs/frontiers-of-the-mind-imbued-archetypes.db",
+      "name": "frontiers-of-the-mind-imbued-archetypes",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Mind - Mesmerist Class",
+      "path": "packs/frontiers-of-the-mind-mesmerist.db",
+      "name": "frontiers-of-the-mind-mesmerist",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of the Mind - Spells",
+      "path": "packs/frontiers-of-the-mind-spells.db",
+      "name": "frontiers-of-the-mind-spells",
       "system": "pf2e",
       "private": false,
       "flags": {}
