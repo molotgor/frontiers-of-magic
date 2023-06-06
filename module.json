@@ -340,6 +340,60 @@
     },
     {
       "type": "Item",
+      "label": "Frontiers of Nature - Actions",
+      "path": "packs/frontiers-of-nature-actions.db",
+      "name": "frontiers-of-nature-actions",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of Nature - Archetypes",
+      "path": "packs/frontiers-of-nature-archetypes.db",
+      "name": "frontiers-of-nature-archetypes",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of Nature - Effects",
+      "path": "packs/frontiers-of-nature-effects.db",
+      "name": "frontiers-of-nature-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of Nature - Imbued Archetypes",
+      "path": "packs/frontiers-of-nature-imbued-archetypes.db",
+      "name": "frontiers-of-nature-imbued-archetypes",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Frontiers of Nature - Spells",
+      "path": "packs/frontiers-of-nature-spells.db",
+      "name": "frontiers-of-nature-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "RollTable",
+      "label": "Frontiers of Nature - Village Wisdom Weather Effects",
+      "path": "packs/frontiers-of-nature-village-wisdom-weather-effects.db",
+      "name": "frontiers-of-nature-village-wisdom-weather-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
       "label": "New Spell and Items - Actions",
       "path": "packs/new-spell-and-items-actions.db",
       "name": "new-spell-and-items-actions",
