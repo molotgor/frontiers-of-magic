@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -53,6 +53,20 @@
           "mesmerist": {
             "label": "Mesmerist",
             "description": "This indicates abilities from the mesmerist class."
+          },
+          "consult": {
+            "label": "Consult",
+            "description": "You can only use this action if consultant has a reaction available and if they are willing to use it as described in the consult action."
+          },
+          "expertise": {
+            "label": "Expertise",
+            "description": "Depending on the outcome, this action can designate a creature as the target of your expertise. You can have only one expertise target at a time, and designating a new expertise target causes the previous target to lose that designation."
+          }
+        },
+        "equipmentTraits": {
+          "spiritcrafted": {
+            "label": "Spiritcrafted",
+            "description": "Items with this trait indicate that it was made with Spirit Crafting feat."
           }
         }
       }
@@ -388,6 +402,96 @@
       "label": "Frontiers of Nature - Village Wisdom Weather Effects",
       "path": "packs/frontiers-of-nature-village-wisdom-weather-effects.db",
       "name": "frontiers-of-nature-village-wisdom-weather-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Actions",
+      "path": "packs/magic-specializations-actions.db",
+      "name": "magic-specializations-actions",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Aggressive Mage",
+      "path": "packs/magic-specializations-aggressive-mage.db",
+      "name": "magic-specializations-aggressive-mage",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Consultant",
+      "path": "packs/magic-specializations-consultant.db",
+      "name": "magic-specializations-consultant",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Cursebringer",
+      "path": "packs/magic-specializations-cursebringer.db",
+      "name": "magic-specializations-cursebringer",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Deathcaster",
+      "path": "packs/magic-specializations-deathcaster.db",
+      "name": "magic-specializations-deathcaster",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Effects",
+      "path": "packs/magic-specializations-effects.db",
+      "name": "magic-specializations-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Golem Prototyper",
+      "path": "packs/magic-specializations-golem-prototyper.db",
+      "name": "magic-specializations-golem-prototyper",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Incapacitator",
+      "path": "packs/magic-specializations-incapacitator.db",
+      "name": "magic-specializations-incapacitator",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Magic Eater",
+      "path": "packs/magic-specializations-magic-eater.db",
+      "name": "magic-specializations-magic-eater",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magic Specializations - Spells",
+      "path": "packs/magic-specializations-spells.db",
+      "name": "magic-specializations-spells",
       "system": "pf2e",
       "private": false,
       "flags": {}
