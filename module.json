@@ -63,6 +63,12 @@
             "description": "Depending on the outcome, this action can designate a creature as the target of your expertise. You can have only one expertise target at a time, and designating a new expertise target causes the previous target to lose that designation."
           }
         },
+        "weaponTraits": {
+          "spiritcrafted": {
+            "label": "Spiritcrafted",
+            "description": "Items with this trait indicate that it was made with Spirit Crafting feat."
+          }
+        },
         "equipmentTraits": {
           "spiritcrafted": {
             "label": "Spiritcrafted",
