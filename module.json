@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -41,8 +41,11 @@
           "secret": {
             "label": "Secret",
             "description": "The GM rolls the Check for this ability in secret."
+          },
+          "shifter":{
+            "label": "Shifter",
+            "description": "This indicates abilities from the shifter class."
           }
-          
         },
         "featTraits": {
           "familiar": {
@@ -61,12 +64,24 @@
           "expertise": {
             "label": "Expertise",
             "description": "Depending on the outcome, this action can designate a creature as the target of your expertise. You can have only one expertise target at a time, and designating a new expertise target causes the previous target to lose that designation."
+          },
+          "shifter": {
+            "label": "Shifter",
+            "description": "This indicates abilities from the shifter class."
           }
         },
         "weaponTraits": {
           "spiritcrafted": {
             "label": "Spiritcrafted",
             "description": "Items with this trait indicate that it was made with Spirit Crafting feat."
+          },
+          "shifter-form-attack": {
+            "label": "Shifter Form Attack",
+            "description": "You got this strike from shifter form."
+          },
+          "shift-attack": {
+            "label": "Shift Attack",
+            "description": "You got this strike from shift."
           }
         },
         "equipmentTraits": {
@@ -498,6 +513,15 @@
       "label": "Magic Specializations - Spells",
       "path": "packs/magic-specializations-spells.db",
       "name": "magic-specializations-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "…Not Magic? - Illusioneer",
+      "path": "packs/not-magic-illusioneer.db",
+      "name": "not-magic-illusioneer",
       "system": "pf2e",
       "private": false,
       "flags": {}
