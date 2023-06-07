@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -513,6 +513,96 @@
       "label": "Magic Specializations - Spells",
       "path": "packs/magic-specializations-spells.db",
       "name": "magic-specializations-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Actions",
+      "path": "packs/shifter-actions.db",
+      "name": "shifter-actions",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Archetypes",
+      "path": "packs/shifter-archetype.db",
+      "name": "shifter-archetype",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Class",
+      "path": "packs/shifter-class.db",
+      "name": "shifter-class",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Effects",
+      "path": "packs/shifter-effects.db",
+      "name": "shifter-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Feats/Features",
+      "path": "packs/shifter-featsfeatures.db",
+      "name": "shifter-featsfeatures",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Shifter Forms Effects",
+      "path": "packs/shifter-shifter-forms-effects.db",
+      "name": "shifter-shifter-forms-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Shifter Forms",
+      "path": "packs/shifter-shifter-forms.db",
+      "name": "shifter-shifter-forms",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Effects",
+      "path": "packs/shifter-shifts-effects.db",
+      "name": "shifter-shifts-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Shifts",
+      "path": "packs/shifter-shifts.db",
+      "name": "shifter-shifts",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Shifter Class - Spells",
+      "path": "packs/shifter-spells.db",
+      "name": "shifter-spells",
       "system": "pf2e",
       "private": false,
       "flags": {}
