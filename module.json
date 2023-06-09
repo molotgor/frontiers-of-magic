@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "0.10.3",
+  "version": "0.11.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -17,7 +17,7 @@
   "flags": {
     "frontiers-of-magic": {
       "pf2e-homebrew": {
-        "spellsTraits": {
+        "spellTraits": {
           "consolation": {
             "label": "Consolation",
             "description": "A consolation cantrip is a spell you can cast immediately after another spell ends abruptly or produces no effect. Because these spells are situationally relevant and don’t offer the same impact as other cantrips, whenever you would prepare one cantrip for the day or add one cantrip to your spell repertoire, you can prepare or add two consolation cantrips, instead"
@@ -615,10 +615,50 @@
       "system": "pf2e",
       "private": false,
       "flags": {}
+    },{
+      "type": "Item",
+      "label": "Wishing Magic - Actions",
+      "path": "packs/wishing-magic-actions.db",
+      "name": "wishing-magic-actions",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },{
+      "type": "Item",
+      "label": "Wishing Magic - Class Options",
+      "path": "packs/wishing-magic-class-options.db",
+      "name": "wishing-magic-class-options",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },{
+      "type": "Item",
+      "label": "Wishing Magic - Effects",
+      "path": "packs/wishing-magic-effects.db",
+      "name": "wishing-magic-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },{
+      "type": "Item",
+      "label": "Wishing Magic - Spells",
+      "path": "packs/wishing-magic-spells.db",
+      "name": "wishing-magic-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },{
+      "type": "Item",
+      "label": "Wishing Magic - Wishing Mage",
+      "path": "packs/wishing-magic-wishing-mage.db",
+      "name": "wishing-magic-wishing-mage",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Actions",
+      "label": "Spell and Items - Actions",
       "path": "packs/new-spell-and-items-actions.db",
       "name": "new-spell-and-items-actions",
       "system": "pf2e",
@@ -627,7 +667,7 @@
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Consolation Cantrips",
+      "label": "Spell and Items - Consolation Cantrips",
       "path": "packs/new-spell-and-items-consolation-cantrips.db",
       "name": "new-spell-and-items-consolation-cantrips",
       "system": "pf2e",
@@ -636,7 +676,7 @@
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Effects",
+      "label": "Spell and Items - Effects",
       "path": "packs/new-spell-and-items-effects.db",
       "name": "new-spell-and-items-effects",
       "system": "pf2e",
@@ -645,7 +685,7 @@
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Spells",
+      "label": "Spell and Items - Spells",
       "path": "packs/new-spell-and-items-new-spells.db",
       "name": "new-spell-and-items-new-spells",
       "system": "pf2e",
@@ -654,7 +694,7 @@
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Skill Actions",
+      "label": "Spell and Items - Skill Actions",
       "path": "packs/new-spell-and-items-spell-skill-actions.db",
       "name": "new-spell-and-items-spell-skill-actions",
       "system": "pf2e",
@@ -663,7 +703,7 @@
     },
     {
       "type": "Item",
-      "label": "New Spell and Items - Staffs",
+      "label": "Spell and Items - Staffs",
       "path": "packs/new-spell-and-items-staffs.db",
       "name": "new-spell-and-items-staffs",
       "system": "pf2e",
