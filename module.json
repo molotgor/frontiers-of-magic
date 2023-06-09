@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -659,8 +659,8 @@
     {
       "type": "Item",
       "label": "Spell and Items - Actions",
-      "path": "packs/new-spell-and-items-actions.db",
-      "name": "new-spell-and-items-actions",
+      "path": "packs/spell-and-items-actions.db",
+      "name": "spell-and-items-actions",
       "system": "pf2e",
       "private": false,
       "flags": {}
@@ -668,8 +668,8 @@
     {
       "type": "Item",
       "label": "Spell and Items - Consolation Cantrips",
-      "path": "packs/new-spell-and-items-consolation-cantrips.db",
-      "name": "new-spell-and-items-consolation-cantrips",
+      "path": "packs/spell-and-items-consolation-cantrips.db",
+      "name": "spell-and-items-consolation-cantrips",
       "system": "pf2e",
       "private": false,
       "flags": {}
@@ -677,8 +677,8 @@
     {
       "type": "Item",
       "label": "Spell and Items - Effects",
-      "path": "packs/new-spell-and-items-effects.db",
-      "name": "new-spell-and-items-effects",
+      "path": "packs/spell-and-items-effects.db",
+      "name": "spell-and-items-effects",
       "system": "pf2e",
       "private": false,
       "flags": {}
@@ -686,8 +686,8 @@
     {
       "type": "Item",
       "label": "Spell and Items - Spells",
-      "path": "packs/new-spell-and-items-new-spells.db",
-      "name": "new-spell-and-items-new-spells",
+      "path": "packs/spell-and-items-new-spells.db",
+      "name": "spell-and-items-new-spells",
       "system": "pf2e",
       "private": false,
       "flags": {}
@@ -695,8 +695,8 @@
     {
       "type": "Item",
       "label": "Spell and Items - Skill Actions",
-      "path": "packs/new-spell-and-items-spell-skill-actions.db",
-      "name": "new-spell-and-items-spell-skill-actions",
+      "path": "packs/spell-and-items-spell-skill-actions.db",
+      "name": "spell-and-items-spell-skill-actions",
       "system": "pf2e",
       "private": false,
       "flags": {}
@@ -704,8 +704,8 @@
     {
       "type": "Item",
       "label": "Spell and Items - Staffs",
-      "path": "packs/new-spell-and-items-staffs.db",
-      "name": "new-spell-and-items-staffs",
+      "path": "packs/spell-and-items-staffs.db",
+      "name": "spell-and-items-staffs",
       "system": "pf2e",
       "private": false,
       "flags": {}
