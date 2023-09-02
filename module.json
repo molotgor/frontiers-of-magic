@@ -3,8 +3,8 @@
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
   "version": "2.0.0",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10",
+    "minimum": "11",
+    "verified": "11",
     "maximum": "11"
   },
   "authors": [
