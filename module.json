@@ -1,7 +1,7 @@
 {
   "title": "Frontiers of Magic",
   "description": "A module containing the Foundry VTT support for Lion's Brain Media's Frontiers of Magic.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -93,6 +93,211 @@
       }
     }
   },
+  "packFolders": [
+    {
+      "name": "Frontiers of Magic",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "frontiers-of-magic-journals"
+      ],
+      "folders": [
+        {
+        "name": "Chromatic Magic",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "chromatic-magic-chromatic-mage",
+          "chromatic-magic-class-options",
+          "chromatic-magic-spells",
+          "chromatic-magic-actions",
+          "chromatic-magic-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Familiar Adventures",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "familiar-adventures-familiar-warrior",
+          "familiar-adventures-familiar-actions",
+          "familiar-adventures-ancestry",
+          "familiar-adventures-familiar-heritage",
+          "familiar-adventures-familiar-featfeatures",
+          "familiar-adventures-deity",
+          "familiar-adventures-divine-intercession",
+          "familiar-adventures-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Frontiers of the Arcane",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "frontiers-of-the-arcane-magus-hybrid-studies",
+          "frontiers-of-the-arcane-class-archetypes",
+          "frontiers-of-the-arcane-imbued-archetypes",
+          "frontiers-of-the-arcane-effects",
+          "frontiers-of-the-arcane-spells"
+          
+        ],
+        "folders": []
+      },
+      {
+        "name": "Frontiers of the Faith",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "frontiers-of-the-faith-heretic",
+          "frontiers-of-the-faith-community-planter",
+          "frontiers-of-the-faith-domains-expanded",
+          "frontiers-of-the-faith-imbued-archetypes",
+          "frontiers-of-the-faith-spells",
+          "frontiers-of-the-faith-actions",
+          "frontiers-of-the-faith-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Frontiers of the Mind",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "frontiers-of-the-mind-mesmerist",
+          "frontiers-of-the-mind-featfeatures",
+          "frontiers-of-the-mind-imbued-archetypes",
+          "frontiers-of-the-mind-spells",
+          "frontiers-of-the-mind-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Frontiers of Nature",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "frontiers-of-nature-archetypes",
+          "frontiers-of-nature-imbued-archetypes",
+          "frontiers-of-nature-spells",
+          "frontiers-of-nature-actions",
+          "frontiers-of-nature-village-wisdom-weather-effects",
+          "frontiers-of-nature-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Magic Specializations",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "magic-specializations-aggressive-mage",
+          "magic-specializations-cursebringer",
+          "magic-specializations-deathcaster",
+          "magic-specializations-consultant",
+          "magic-specializations-golem-prototyper",
+          "magic-specializations-incapacitator",
+          "magic-specializations-magic-eater",
+          "magic-specializations-spells",
+          "magic-specializations-actions",
+          "magic-specializations-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Shifter Class",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "shifter-class",
+          "shifter-featsfeatures",
+          "shifter-archetype",
+          "shifter-shifts",
+          "shifter-shifter-forms",
+          "shifter-spells",
+          "shifter-actions",
+          "shifter-shifts-effects",
+          "shifter-shifter-forms-effects",
+          "shifter-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "…Not Magic?",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "not-magic-illusioneer"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Wishing Magic",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "wishing-magic-wishing-mage",
+          "wishing-magic-class-options",
+          "wishing-magic-spells",
+          "wishing-magic-actions",
+          "wishing-magic-effects"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Spell and Items",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "spell-and-items-consolation-cantrips",
+          "spell-and-items-spell-skill-actions",
+          "spell-and-items-new-spells",
+          "spell-and-items-staffs",
+          "spell-and-items-actions",
+          "spell-and-items-effects"
+        ],
+        "folders": []
+      }
+    ]
+    }
+  ],
   "packs": [
     {
       "type": "JournalEntry",
@@ -105,7 +310,7 @@
     },
     {
       "type": "Item",
-      "label": "Chromatic Magic - Spells",
+      "label": "Spells",
       "path": "packs/chromatic-magic-spells.db",
       "name": "chromatic-magic-spells",
       "system": "pf2e",
@@ -114,7 +319,7 @@
     },
     {
       "type": "Item",
-      "label": "Chromatic Magic - Effects",
+      "label": "Effects",
       "path": "packs/chromatic-magic-effects.db",
       "name": "chromatic-magic-effects",
       "system": "pf2e",
@@ -123,7 +328,7 @@
     },
     {
       "type": "Item",
-      "label": "Chromatic Magic - Actions",
+      "label": "Actions",
       "path": "packs/chromatic-magic-actions.db",
       "name": "chromatic-magic-actions",
       "system": "pf2e",
@@ -132,7 +337,7 @@
     },
     {
       "type": "Item",
-      "label": "Chromatic Magic - Class Options",
+      "label": "Class Options",
       "path": "packs/chromatic-magic-class-options.db",
       "name": "chromatic-magic-class-options",
       "system": "pf2e",
@@ -141,7 +346,7 @@
     },
     {
       "type": "Item",
-      "label": "Chromatic Magic - Chromatic Mage",
+      "label": "Chromatic Mage",
       "path": "packs/chromatic-magic-chromatic-mage.db",
       "name": "chromatic-magic-chromatic-mage",
       "system": "pf2e",
@@ -150,7 +355,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Ancestry",
+      "label": "Ancestry",
       "path": "packs/familiar-adventures-ancestry.db",
       "name": "familiar-adventures-ancestry",
       "system": "pf2e",
@@ -159,7 +364,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Familiar Heritage",
+      "label": "Familiar Heritage",
       "path": "packs/familiar-adventures-familiar-heritage.db",
       "name": "familiar-adventures-familiar-heritage",
       "system": "pf2e",
@@ -168,7 +373,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Familiar Actions",
+      "label": "Familiar Actions",
       "path": "packs/familiar-adventures-familiar-actions.db",
       "name": "familiar-adventures-familiar-actions",
       "system": "pf2e",
@@ -177,7 +382,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Deity",
+      "label": "Deity",
       "path": "packs/familiar-adventures-deity.db",
       "name": "familiar-adventures-deity",
       "system": "pf2e",
@@ -186,7 +391,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Divine Intercession",
+      "label": "Divine Intercession",
       "path": "packs/familiar-adventures-divine-intercession.db",
       "name": "familiar-adventures-divine-intercession",
       "system": "pf2e",
@@ -195,7 +400,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Familiar Feats/Features",
+      "label": "Familiar Feats/Features",
       "path": "packs/familiar-adventures-familiar-featfeatures.db",
       "name": "familiar-adventures-familiar-featfeatures",
       "system": "pf2e",
@@ -204,7 +409,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Familiar Warrior",
+      "label": "Familiar Warrior",
       "path": "packs/familiar-adventures-familiar-warrior.db",
       "name": "familiar-adventures-familiar-warrior",
       "system": "pf2e",
@@ -213,7 +418,7 @@
     },
     {
       "type": "Item",
-      "label": "Familiar Adventures - Effects",
+      "label": "Effects",
       "path": "packs/familiar-adventures-effects.db",
       "name": "familiar-adventures-effects",
       "system": "pf2e",
@@ -222,7 +427,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Arcane - Class Archetypes",
+      "label": "Class Archetypes",
       "path": "packs/frontiers-of-the-arcane-class-archetypes.db",
       "name": "frontiers-of-the-arcane-class-archetypes",
       "system": "pf2e",
@@ -231,7 +436,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Arcane - Effects",
+      "label": "Effects",
       "path": "packs/frontiers-of-the-arcane-effects.db",
       "name": "frontiers-of-the-arcane-effects",
       "system": "pf2e",
@@ -240,7 +445,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Arcane - Imbued Archetypes",
+      "label": "Imbued Archetypes",
       "path": "packs/frontiers-of-the-arcane-imbued-archetypes.db",
       "name": "frontiers-of-the-arcane-imbued-archetypes",
       "system": "pf2e",
@@ -249,7 +454,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Arcane - Magus Hybrid Studies",
+      "label": "Magus Hybrid Studies",
       "path": "packs/frontiers-of-the-arcane-magus-hybrid-studies.db",
       "name": "frontiers-of-the-arcane-magus-hybrid-studies",
       "system": "pf2e",
@@ -258,7 +463,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Arcane - Spells",
+      "label": "Spells",
       "path": "packs/frontiers-of-the-arcane-spells.db",
       "name": "frontiers-of-the-arcane-spells",
       "system": "pf2e",
@@ -267,7 +472,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Actions",
+      "label": "Actions",
       "path": "packs/frontiers-of-the-faith-actions.db",
       "name": "frontiers-of-the-faith-actions",
       "system": "pf2e",
@@ -276,7 +481,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Community Planter",
+      "label": "Community Planter",
       "path": "packs/frontiers-of-the-faith-community-planter.db",
       "name": "frontiers-of-the-faith-community-planter",
       "system": "pf2e",
@@ -285,7 +490,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Domains Expanded",
+      "label": "Domains Expanded",
       "path": "packs/frontiers-of-the-faith-domains-expanded.db",
       "name": "frontiers-of-the-faith-domains-expanded",
       "system": "pf2e",
@@ -294,7 +499,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Effects",
+      "label": "Effects",
       "path": "packs/frontiers-of-the-faith-effects.db",
       "name": "frontiers-of-the-faith-effects",
       "system": "pf2e",
@@ -303,7 +508,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Heretic",
+      "label": "Heretic",
       "path": "packs/frontiers-of-the-faith-heretic.db",
       "name": "frontiers-of-the-faith-heretic",
       "system": "pf2e",
@@ -312,7 +517,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Imbued Archetypes",
+      "label": "Imbued Archetypes",
       "path": "packs/frontiers-of-the-faith-imbued-archetypes.db",
       "name": "frontiers-of-the-faith-imbued-archetypes",
       "system": "pf2e",
@@ -321,7 +526,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Faith - Spells",
+      "label": "Spells",
       "path": "packs/frontiers-of-the-faith-spells.db",
       "name": "frontiers-of-the-faith-spells",
       "system": "pf2e",
@@ -330,7 +535,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Mind - Effects",
+      "label": "Effects",
       "path": "packs/frontiers-of-the-mind-effects.db",
       "name": "frontiers-of-the-mind-effects",
       "system": "pf2e",
@@ -339,7 +544,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Mind - Feats/Features",
+      "label": "Feats/Features",
       "path": "packs/frontiers-of-the-mind-featfeatures.db",
       "name": "frontiers-of-the-mind-featfeatures",
       "system": "pf2e",
@@ -348,7 +553,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Mind - Imbued Archetypes",
+      "label": "Imbued Archetypes",
       "path": "packs/frontiers-of-the-mind-imbued-archetypes.db",
       "name": "frontiers-of-the-mind-imbued-archetypes",
       "system": "pf2e",
@@ -357,7 +562,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Mind - Mesmerist Class",
+      "label": "Mesmerist Class",
       "path": "packs/frontiers-of-the-mind-mesmerist.db",
       "name": "frontiers-of-the-mind-mesmerist",
       "system": "pf2e",
@@ -366,7 +571,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of the Mind - Spells",
+      "label": "Spells",
       "path": "packs/frontiers-of-the-mind-spells.db",
       "name": "frontiers-of-the-mind-spells",
       "system": "pf2e",
@@ -375,7 +580,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of Nature - Actions",
+      "label": "Actions",
       "path": "packs/frontiers-of-nature-actions.db",
       "name": "frontiers-of-nature-actions",
       "system": "pf2e",
@@ -384,7 +589,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of Nature - Archetypes",
+      "label": "Archetypes",
       "path": "packs/frontiers-of-nature-archetypes.db",
       "name": "frontiers-of-nature-archetypes",
       "system": "pf2e",
@@ -393,7 +598,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of Nature - Effects",
+      "label": "Effects",
       "path": "packs/frontiers-of-nature-effects.db",
       "name": "frontiers-of-nature-effects",
       "system": "pf2e",
@@ -402,7 +607,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of Nature - Imbued Archetypes",
+      "label": "Imbued Archetypes",
       "path": "packs/frontiers-of-nature-imbued-archetypes.db",
       "name": "frontiers-of-nature-imbued-archetypes",
       "system": "pf2e",
@@ -411,7 +616,7 @@
     },
     {
       "type": "Item",
-      "label": "Frontiers of Nature - Spells",
+      "label": "Spells",
       "path": "packs/frontiers-of-nature-spells.db",
       "name": "frontiers-of-nature-spells",
       "system": "pf2e",
@@ -420,7 +625,7 @@
     },
     {
       "type": "RollTable",
-      "label": "Frontiers of Nature - Village Wisdom Weather Effects",
+      "label": "Village Wisdom Weather Effects",
       "path": "packs/frontiers-of-nature-village-wisdom-weather-effects.db",
       "name": "frontiers-of-nature-village-wisdom-weather-effects",
       "system": "pf2e",
@@ -429,7 +634,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Actions",
+      "label": "Actions",
       "path": "packs/magic-specializations-actions.db",
       "name": "magic-specializations-actions",
       "system": "pf2e",
@@ -438,7 +643,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Aggressive Mage",
+      "label": "Aggressive Mage",
       "path": "packs/magic-specializations-aggressive-mage.db",
       "name": "magic-specializations-aggressive-mage",
       "system": "pf2e",
@@ -447,7 +652,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Consultant",
+      "label": "Consultant",
       "path": "packs/magic-specializations-consultant.db",
       "name": "magic-specializations-consultant",
       "system": "pf2e",
@@ -456,7 +661,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Cursebringer",
+      "label": "Cursebringer",
       "path": "packs/magic-specializations-cursebringer.db",
       "name": "magic-specializations-cursebringer",
       "system": "pf2e",
@@ -465,7 +670,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Deathcaster",
+      "label": "Deathcaster",
       "path": "packs/magic-specializations-deathcaster.db",
       "name": "magic-specializations-deathcaster",
       "system": "pf2e",
@@ -474,7 +679,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Effects",
+      "label": "Effects",
       "path": "packs/magic-specializations-effects.db",
       "name": "magic-specializations-effects",
       "system": "pf2e",
@@ -483,7 +688,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Golem Prototyper",
+      "label": "Golem Prototyper",
       "path": "packs/magic-specializations-golem-prototyper.db",
       "name": "magic-specializations-golem-prototyper",
       "system": "pf2e",
@@ -492,7 +697,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Incapacitator",
+      "label": "Incapacitator",
       "path": "packs/magic-specializations-incapacitator.db",
       "name": "magic-specializations-incapacitator",
       "system": "pf2e",
@@ -501,7 +706,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Magic Eater",
+      "label": "Magic Eater",
       "path": "packs/magic-specializations-magic-eater.db",
       "name": "magic-specializations-magic-eater",
       "system": "pf2e",
@@ -510,7 +715,7 @@
     },
     {
       "type": "Item",
-      "label": "Magic Specializations - Spells",
+      "label": "Spells",
       "path": "packs/magic-specializations-spells.db",
       "name": "magic-specializations-spells",
       "system": "pf2e",
@@ -519,7 +724,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Actions",
+      "label": "Actions",
       "path": "packs/shifter-actions.db",
       "name": "shifter-actions",
       "system": "pf2e",
@@ -528,7 +733,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Archetypes",
+      "label": "Archetypes",
       "path": "packs/shifter-archetype.db",
       "name": "shifter-archetype",
       "system": "pf2e",
@@ -537,7 +742,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Class",
+      "label": "Shifter Class",
       "path": "packs/shifter-class.db",
       "name": "shifter-class",
       "system": "pf2e",
@@ -546,7 +751,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Effects",
+      "label": "Effects",
       "path": "packs/shifter-effects.db",
       "name": "shifter-effects",
       "system": "pf2e",
@@ -555,7 +760,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Feats/Features",
+      "label": "Feats/Features",
       "path": "packs/shifter-featsfeatures.db",
       "name": "shifter-featsfeatures",
       "system": "pf2e",
@@ -564,7 +769,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Shifter Forms Effects",
+      "label": "Shifter Forms Effects",
       "path": "packs/shifter-shifter-forms-effects.db",
       "name": "shifter-shifter-forms-effects",
       "system": "pf2e",
@@ -573,7 +778,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Shifter Forms",
+      "label": "Shifter Forms",
       "path": "packs/shifter-shifter-forms.db",
       "name": "shifter-shifter-forms",
       "system": "pf2e",
@@ -582,7 +787,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Effects",
+      "label": "Shifts Effects",
       "path": "packs/shifter-shifts-effects.db",
       "name": "shifter-shifts-effects",
       "system": "pf2e",
@@ -591,7 +796,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Shifts",
+      "label": "Shifts",
       "path": "packs/shifter-shifts.db",
       "name": "shifter-shifts",
       "system": "pf2e",
@@ -600,7 +805,7 @@
     },
     {
       "type": "Item",
-      "label": "Shifter Class - Spells",
+      "label": "Spells",
       "path": "packs/shifter-spells.db",
       "name": "shifter-spells",
       "system": "pf2e",
@@ -609,56 +814,61 @@
     },
     {
       "type": "Item",
-      "label": "…Not Magic? - Illusioneer",
+      "label": "Illusioneer",
       "path": "packs/not-magic-illusioneer.db",
       "name": "not-magic-illusioneer",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },{
-      "type": "Item",
-      "label": "Wishing Magic - Actions",
-      "path": "packs/wishing-magic-actions.db",
-      "name": "wishing-magic-actions",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },{
-      "type": "Item",
-      "label": "Wishing Magic - Class Options",
-      "path": "packs/wishing-magic-class-options.db",
-      "name": "wishing-magic-class-options",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },{
-      "type": "Item",
-      "label": "Wishing Magic - Effects",
-      "path": "packs/wishing-magic-effects.db",
-      "name": "wishing-magic-effects",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },{
-      "type": "Item",
-      "label": "Wishing Magic - Spells",
-      "path": "packs/wishing-magic-spells.db",
-      "name": "wishing-magic-spells",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },{
-      "type": "Item",
-      "label": "Wishing Magic - Wishing Mage",
-      "path": "packs/wishing-magic-wishing-mage.db",
-      "name": "wishing-magic-wishing-mage",
       "system": "pf2e",
       "private": false,
       "flags": {}
     },
     {
       "type": "Item",
-      "label": "Spell and Items - Actions",
+      "label": "Actions",
+      "path": "packs/wishing-magic-actions.db",
+      "name": "wishing-magic-actions",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Class Options",
+      "path": "packs/wishing-magic-class-options.db",
+      "name": "wishing-magic-class-options",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Effects",
+      "path": "packs/wishing-magic-effects.db",
+      "name": "wishing-magic-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Spells",
+      "path": "packs/wishing-magic-spells.db",
+      "name": "wishing-magic-spells",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Wishing Mage",
+      "path": "packs/wishing-magic-wishing-mage.db",
+      "name": "wishing-magic-wishing-mage",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+      {
+      "type": "Item",
+      "label": "Actions",
       "path": "packs/spell-and-items-actions.db",
       "name": "spell-and-items-actions",
       "system": "pf2e",
@@ -667,7 +877,7 @@
     },
     {
       "type": "Item",
-      "label": "Spell and Items - Consolation Cantrips",
+      "label": "Consolation Cantrips",
       "path": "packs/spell-and-items-consolation-cantrips.db",
       "name": "spell-and-items-consolation-cantrips",
       "system": "pf2e",
@@ -676,7 +886,7 @@
     },
     {
       "type": "Item",
-      "label": "Spell and Items - Effects",
+      "label": "Effects",
       "path": "packs/spell-and-items-effects.db",
       "name": "spell-and-items-effects",
       "system": "pf2e",
@@ -685,7 +895,7 @@
     },
     {
       "type": "Item",
-      "label": "Spell and Items - Spells",
+      "label": "Spells",
       "path": "packs/spell-and-items-new-spells.db",
       "name": "spell-and-items-new-spells",
       "system": "pf2e",
@@ -694,7 +904,7 @@
     },
     {
       "type": "Item",
-      "label": "Spell and Items - Skill Actions",
+      "label": "Spell Skill Actions",
       "path": "packs/spell-and-items-spell-skill-actions.db",
       "name": "spell-and-items-spell-skill-actions",
       "system": "pf2e",
@@ -703,13 +913,14 @@
     },
     {
       "type": "Item",
-      "label": "Spell and Items - Staffs",
+      "label": "Staffs",
       "path": "packs/spell-and-items-staffs.db",
       "name": "spell-and-items-staffs",
       "system": "pf2e",
       "private": false,
       "flags": {}
     }
+
   ],
   "url": "https://github.com/molotgor/frontiers-of-magic",
   "manifest": "https://raw.githubusercontent.com/molotgor/frontiers-of-magic/master/module.json",
